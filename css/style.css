@@ -18,7 +18,7 @@ body {
     font-family: montserrat;
     font-size: 16px;
     letter-spacing: 0;
-    background-color: #171818;
+    /* background-color: #171818; */
     word-wrap: break-word;
     line-height: 1.6;
     font-weight: 500
@@ -45,7 +45,7 @@ h3,
 h4,
 h5,
 h6 {
-    color: #fff;
+    color: #000;
     font-family: montserrat;
     font-weight: 600;
     line-height: 1.2;
@@ -292,7 +292,8 @@ img {
 
 .overlay_color,
 .overlay_content {
-    z-index: 2
+    z-index: 2;
+    background-color: white;
 }
 
 .nicolas_sm_full_link {
@@ -306,12 +307,12 @@ img {
 
 .stroke_text {
     color: transparent;
-    -webkit-text-stroke: 1px #fff
+    -webkit-text-stroke: 1px #000
 }
 
 .stroke_text_bolder {
     color: transparent;
-    -webkit-text-stroke: 2px #fff
+    -webkit-text-stroke: 2px #000
 }
 
 .nicolas_sa_mobile_menu {
@@ -442,12 +443,8 @@ img {
 
 .nicolas_sm_header .overlay_bg:before {
     position: absolute;
-    content: "";
     width: 100%;
     height: 100%;
-    background-image: url(../img/pattern.png);
-    background-repeat: repeat;
-    opacity: .3;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     z-index: 2;
@@ -503,7 +500,7 @@ img {
 }
 
 .nicolas_sm_header .menu a {
-    color: #fff;
+    color: #000;
     font-weight: 600;
     text-decoration: none;
     text-transform: capitalize;
@@ -589,7 +586,7 @@ img {
     transform: translateY(-50%);
     left: 100%;
     height: 2px;
-    background-color: #959595;
+    background-color: #000;
     margin-left: 45px
 }
 
@@ -597,7 +594,7 @@ img {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 2px solid #959595;
+    border: 2px solid #000;
     border-radius: 50%;
     position: absolute;
     right: -25px;
@@ -608,7 +605,7 @@ img {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 2px solid #959595;
+    border: 2px solid #000;
     border-radius: 50%;
     position: absolute;
     right: -25px;
@@ -667,7 +664,7 @@ img {
 }
 
 .nicolas_sm_hero .hero_scroll_title span {
-    color: #fff;
+    color: #000;
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase
@@ -742,12 +739,9 @@ img {
 
 .nicolas_sm_hero .overlay_bg:before {
     position: absolute;
-    content: "";
+    background-color: #fff;
     width: 100%;
     height: 100%;
-    background-image: url(../img/pattern.png);
-    background-repeat: repeat;
-    opacity: .3;
     border-bottom-left-radius: 40px;
     border-bottom-right-radius: 40px;
     z-index: 2;
@@ -755,7 +749,7 @@ img {
 }
 
 .nicolas_sm_hero .overlay_color {
-    background: #000;
+    background: hsl(0, 0%, 0%);
     border-radius: 40px;
     opacity: .3
 }
@@ -830,7 +824,7 @@ img {
     justify-content: center;
     width: 48px;
     height: 48px;
-    background-color: #fff;
+    /* background-color: #000; */
     border-radius: 4px;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -915,7 +909,7 @@ img {
 }
 
 .nicolas_sm_main_title .left span {
-    color: #fff;
+    color: #000;
     font-weight: 600;
     text-transform: uppercase
 }
@@ -950,7 +944,7 @@ img {
 }
 
 .nicolas_sm_main_title .center p {
-    color: #fff;
+    color: #000;
     font-size: 36px;
     font-weight: 600;
     line-height: 1.3;
@@ -1085,7 +1079,7 @@ img {
     content: '';
     width: 100%;
     height: 1px;
-    background-color: #fff;
+    background-color: #000;
     position: absolute;
     left: 0;
     bottom: 16px;
@@ -1146,13 +1140,13 @@ img {
 }
 
 .nicolas_sm_extra_title span {
-    color: #fff;
+    color: #000;
     font-weight: 600;
     text-transform: uppercase
 }
 
 .nicolas_sm_extra_title a {
-    color: #fff;
+    color: #000;
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
@@ -1189,9 +1183,9 @@ img {
 }
 
 .nicolas_sm_portfolio {
-    background-color: #111212;
+    /* background-color: #111212; */
     border-radius: 40px;
-    padding: 120px 0
+    /* padding: 120px  */
 }
 
 .nicolas_sm_portfolio .portfolio_in {
@@ -1268,11 +1262,11 @@ img {
 }
 
 .nicolas_sm_portfolio .left a:hover {
-    color: #fff
+    color: #000
 }
 
 .nicolas_sm_portfolio .left h3 a {
-    color: #fff;
+    color: #000;
     font-size: 30px;
     text-transform: none;
     -webkit-transition: all .3s ease;
@@ -1384,7 +1378,7 @@ img {
 }
 
 .nicolas_sm_testimonials .details p {
-    color: #fff;
+    color: #000;
     font-size: 20px
 }
 
@@ -1401,10 +1395,9 @@ img {
 }
 
 .nicolas_sm_testimonials .image img {
-    width: 70px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     aspect-ratio: 1/1;
-    border-radius: 50%
 }
 
 .nicolas_sm_testimonials .info h3 {
@@ -1662,7 +1655,7 @@ img {
 }
 
 .nicolas_sm_blog .left h3 a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -1682,7 +1675,7 @@ img {
 .nicolas_sm_blog .button a {
     display: flex;
     align-items: center;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -2047,12 +2040,12 @@ img {
 }
 
 .nicolas_sm_copyright .left p {
-    color: #fff;
+    color: #000;
     font-size: 18px
 }
 
 .nicolas_sm_copyright .right a {
-    color: #fff;
+    color: #000;
     font-size: 18px;
     text-decoration: none;
     -webkit-transition: all .3s ease;
@@ -3073,7 +3066,7 @@ img {
 
 .nicolas_sm_blog .left span {
     display: inline-block;
-    color: #fff;
+    color: #000;
     padding-left: 20px;
     margin-bottom: 27px;
     position: relative
